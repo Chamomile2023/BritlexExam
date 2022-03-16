@@ -5,3 +5,464 @@
     list-style: none;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Header */
+header{
+    width: 100%;
+    background-color: #fff;
+}
+nav{ 
+    height: 170px;
+    display: flex;
+    position: fixed;
+    background-color: #FFFFFF;
+}
+nav .logo{
+    padding-top: 57px;
+}
+nav .logo a{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: rgb(167, 164, 164);
+}
+nav .logo span{
+    color: #000000;
+} 
+nav ul{
+    width: 520px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 214px;
+    margin-right: 204px;
+}
+nav .menu ul li a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #263238;
+    
+}
+nav .btn{
+    width: 220px;
+    height: 70px;
+    margin-top: 55px;
+    text-align: center;
+   
+}
+nav .btn a{
+    padding: 17px 34px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000; border: 1px solid grey;
+    border: 2px solid #263238;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.header_hero{
+    width: 1200px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_hero .text .together{
+    width: 522px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_hero .text h1{
+    width: 386px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+}
+.header_hero .text p{
+    width: 570px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+}
+.header_hero .text a{
+    padding: 32px 117px;
+    background: #263238;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+}
+.header_hero .image{
+    margin-top: -80px;
+    margin-left: -15px;
+}
+.header_hero .together .basic{
+    width: 85px;
+    height: 85px;
+    padding-top: 105px;
+}
+/* Header */
+/* Main */
+main{
+    width: 100%;
+
+    background-color: #FFFFFF;
+}
+main .card{
+    width: 1200px;
+    margin: auto;
+}
+main .card h2{
+    width: 1200px;
+    text-align: center;
+    padding-top: 147px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+main .cards{
+    width: 1200px;
+    padding-top: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main .cards .card_1{
+    width: 435px;
+    height: 894px;
+    margin-right: 10px;
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+main .cards .inner_card{
+    display: flex;
+    flex-direction: row;
+}
+main .cards .inner_card_1{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+main .cards .only_one_card .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main .box h3{
+    padding-top: 30px; 
+    padding-left: 45px; 
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: #263238;
+}
+main .box p{
+    width: 328px;
+    padding-bottom: 45px;
+    text-align: start;
+    padding-left: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+}
+main .box a{
+    margin-left: 44px;
+    padding-left: 45px;
+    font-weight: 500;
+    font-size: 18px;    
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #263238;
+    border-radius: 5px;
+    padding: 17px 51px;
+}
+main .card_2 .inner_card .grey{ 
+    width: 414px;
+    height: 525px;
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+main .card_2 .inner_card .grey h3{
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+main .card_2 .inner_card .grey img{
+    width: 290px;
+    height: 290px;
+    padding-left: 45px;
+}
+main .card_2 .inner_card .grey p{
+    padding-right: 55px;
+    padding-left: 45px;
+    padding-bottom: 29px;
+    color: #8F95A5;
+}
+main .card_2 .inner_card .grey a{
+    margin-left: 44px;
+    padding-right: 45px;
+    font-weight: 500;
+    font-size: 18px;    
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #263238;
+    border-radius: 5px;
+    padding: 17px 51px;
+}
+main .card_2 .inner_card .grey .box{
+    padding-top: -205px;
+}
+main .only_one_card{
+    width: 843px;
+    height: 353px;
+    margin-top: 5px;
+    background: #F5F5F5;
+    border-radius: 10px;
+}
+main .only_one_card .box_2 img{
+    padding-top: 44px;
+}
+/* Main */
+/* Section */
+section{
+    width: 100%;
+   
+    background-color: #FFFFFF;
+}
+section .about_us{
+    width: 1200px; 
+    padding-top: 282px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section .about_us .text h2{
+  
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+section .about_us .picture{
+    width: 500px;
+    height: 500px;
+}
+section .about_us .text p{
+    padding-top: 33px;
+    width: 635px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+section .text_2{
+    padding-top: 25px;
+}
+section .text_2 ul{
+    width: 610px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section .text_2 ul li span{
+    font-weight: 600;
+    margin-left: -5px;
+    font-size: 48px;
+    line-height: 80px;
+    color: #2A3246
+}
+section .text_2 .num_1{
+    margin-left: -125px;
+}
+section .text_2 .num{
+  margin-left: -125px;
+}
+section .text_2 ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+/* Section */
+/* Section */
+.Pricing{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.Pricing .pricing{
+    width: 1200px;
+    padding-top: 100px;
+}
+.Pricing .pricing h2{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 107px;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+.Pricing .pricing .card{
+    width: 635px;
+}
+.Pricing .pricing .card h3{
+    width: 372px;
+    font-weight: 600;
+font-size: 30px;
+line-height: 48px;
+color: #263238;
+}
+.Pricing .pricing  .card img{
+    width: 311px;
+    height: 311px;
+}
+.Pricing .pricing .cards{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Pricing .pricing .card p{
+    width: 416px;
+    height: 90px;
+    text-align: start;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 36px;
+font-size: 20px;
+line-height: 30px;
+color: #8F95A5;
+}
+.Pricing .pricing .card a{
+    width: 240px;
+    height: 45px;
+    background: #EEEEEE;
+    border-radius: 5px;
+    padding: 7px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #546269
+}
+.Pricing .pricing .card a span{
+    color: #263238;
+}
+/* Section */
+/* Aside  */
+aside{
+    width: 100%;
+    margin: auto;
+}
+aside .contact .text{
+    margin-left: 75px;
+}
+aside .contact{
+    width: 1200px;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+aside .contact .img{
+    height: 396px;
+}
+aside .contact .text h3{
+    width: 776px;
+    padding-bottom: 37px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: #000000;
+}
+aside .contact .text p{
+    width: 745px;
+    padding-bottom: 52px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #8F95A5;
+}
+aside .contact .text a{
+    font-weight: 500;
+    padding-bottom: 200px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 25px 51px;
+    color: #fff;
+    border: 1px solid #8F95A5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #263238;
+
+}
+form{
+
+}
+aside .contact .text .long{
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 280px;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    border-radius: 0px;
+    background-color: #fff;
+}
+/* Aside  */
+/* Footer */
+footer{
+    width: 100%;
+}
+footer .line{
+    width: 1200px;
+    margin-top: 165px;
+    margin-bottom: 31px;
+    border: 1px solid #C4C4C4;
+}
+footer .logo span{
+    color: #000000;
+}
+footer .logo a{
+    font-weight: 400;
+    margin-right: 485px;
+    font-size: 36px;
+    line-height: 54px; 
+    color: rgb(167, 167, 167);
+}
+ input{
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-left: 32px;
+    padding-right: 280px;
+    border: 1px solid #8F95A5;
+}
+footer .foot{
+    width: 1200px;
+    padding-bottom: 45px;
+    display: flex;
+}
+footer .foot ul{
+    width: 620px;
+    display: flex;
+    padding-top: 3px;
+}
+footer .foot ul li a{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+}
+/* Footer */
